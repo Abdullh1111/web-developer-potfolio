@@ -15,6 +15,12 @@ cursor: pointer;
 .orange{
   color: #FD6E0A;
 }
+.about-tittle{
+  color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
 /* nav bar  */
 nav{
   display: flex;
@@ -42,12 +48,53 @@ nav a{
 /* header part */
 .header{
   background-color: #FFF8F3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner{
-  padding: 30px 30px 30px 150px;
+  padding: 30px 0px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .profile{
   height: 500px;
+}
+.banner-greeting{
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0px;
+}
+.banner-tittle{
+  font-size: 85px;
+  margin-top: 5px;
+font-weight: 700;
+margin-bottom: 0px;
+}
+.banner-text{
+  font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+color: #757575;
+margin-bottom: 30px;
+}
+.banner-contain{
+  max-width: 585px;
+
+}
+/* main section style */
+
+/* about section */
+.about{
+  padding: 130px;
+  margin: 130px 230px;
+  background-color: #FFF8F3;
+  text-align: center;
+  border-radius: 10px;
+}
+.about-text{
+  color: #757575;
+font-size: 18px;
+font-weight: 400;
 }
