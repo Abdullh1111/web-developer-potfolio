@@ -143,3 +143,32 @@ font-weight: 400;
 .last-skill{
   margin-right: 0px;
 }
+main section{
+  margin-top: 130px;
+}
+/* resume section */
+.resume-column-tittle{
+  color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-container{
+  display: flex;
+  gap: 50px;
+}
+.resume-text, .resume-school{
+  color: #757575;
+}
+.resume-tittle{
+  margin-bottom: 6px;
+}
+.resume-school{
+  margin: 4px 0px;
+font-size: 20px;
+font-weight: 600;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 110px
+}
