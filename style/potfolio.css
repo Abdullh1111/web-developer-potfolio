@@ -172,3 +172,31 @@ font-weight: 600;
   margin-top: 50px;
   margin-bottom: 110px
 }
+/* footer section */
+.footer-section{
+  background-color: #FFF8F3;
+  padding: 130px 230px;
+  gap: 145px;
+}
+.gap{
+  padding-right: 24px;
+}
+.footer-section{
+  display: flex;
+}
+.footer-text{
+  color: #474747;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.input-text{
+  color: #757575;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 24px;
+padding: 18px 350px 18px 30px;
+}
+.input-massage{
+  padding-bottom: 140px;
+}
